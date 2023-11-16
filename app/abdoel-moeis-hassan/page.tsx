@@ -6,12 +6,12 @@ export default function Home() {
     return (
         <>
             <div className="container mx-auto text-slate-50">
-                <div className="flex justify-end w-full sticky top-0 py-6 text-sky-500">
+                <div className="flex justify-end w-full py-6 text-sky-500">
                     <Link href={'/'}>Daftar Pahlawan</Link>
                 </div>
                 {/* Navbar */}
                 {/* Abdoel Moeis Hassan */}
-                <section className="py-10 flex item relative max-lg:flex-col max-lg:px-5">
+                <section className="py-10 flex item relative max-lg:flex-col max-lg:px-5 max-lg:text-sm">
                     <div className="w-2/5 max-lg:w-full max-lg:flex max-lg:justify-center">
                         <Image width={500} height={500} src={Abdoul_Moeis_Hassan} alt='...' className='bg-cover rounded-full max-lg:w-80 max-lg:h-80  w-96 h-96 shadow-[0px_0px_35px_-15px_#38bdf8]' />
                     </div>
